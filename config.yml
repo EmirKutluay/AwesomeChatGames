@@ -1,0 +1,35 @@
+ServerPrefix: '&7[&3&lAwesomeChatGames&7]&r'
+
+#Select the wait between games (in seconds)
+#Stop the server before changing this setting otherwise it will cause bugs.
+WaitBetweenGames: 300
+
+#Enable or Disable Game types
+MathGames: true
+WordAnagrams: true
+Questions: true
+NumberGuesser: true
+
+#Rewards
+RewardConsoleCommand: give %player% diamond 5
+RewardName: 5 Diamonds
+
+#Words for WordAnagram Game
+WordsForWordAnagrams:
+- Biome
+- Creative
+- Survival
+- Creeper
+- Enderman
+- Nether
+- Pickaxe
+- Redstone
+- Wither
+- Zombie
+- Compass
+- Cactus
+- Beacon
+- Arrow
+- Stack
+- Slime
+- Anvil

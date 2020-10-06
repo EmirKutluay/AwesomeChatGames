@@ -1,0 +1,7 @@
+name: AwesomeChatGames
+main: com.emiv.awesomechatgames.Main
+version: 1.2
+commands:
+  acg:
+    aliases: [awesomechatgames, chatgames]
+    description: Command for AwesomeChatGames
