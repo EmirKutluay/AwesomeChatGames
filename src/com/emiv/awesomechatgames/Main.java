@@ -100,7 +100,7 @@ public class Main extends JavaPlugin{
 	}
 	
 	public void setQuestions() {
-		if (qYaml.getKeys(true).size() == 0) {
+		if (qYaml.getKeys(false).size() == 0) {
 			qYaml.set("How much is a stack in Minecraft?", "64");
 			qYaml.set("What is the animal that creepers are afraid of?", "Ocelot");
 			qYaml.set("How tall is enderman in blocks?", "3");
