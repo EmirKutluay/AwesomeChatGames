@@ -16,6 +16,7 @@ public class ACGCommand implements CommandExecutor {
 		plugin = main;
 	}
 	
+	
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		String correctUse = "&8----" + plugin.getConfig().getString("ServerPrefix") + "&8----" + "\n" + "&d/acg reload &8- &eReload all configurations";
